@@ -56,7 +56,7 @@ sudo ln -s /etc/freeradius/3.0/mods-available/sql /etc/freeradius/3.0/mods-enabl
 ```
 
 ```
-sudo vim /etc/freeradius/*/mods-enabled/sql
+sudo vim /etc/freeradius/3.0/mods-available/sql
 ```
 
 ```
@@ -241,4 +241,19 @@ Access the service on the following URLS:
 RADIUS management application: http://192.168.1.2:8000/
 
 ```
+```
+sudo vim /etc/freeradius/3.0/clients.conf
+```
+```
+client wrt1200ac {
+    ipaddr = 192.168.1.1
+    secret = tprezo89!
+    require_message_authenticator = no
+}
 
+client opnsense {
+    ipaddr = 192.168.1.3
+    secret = tprezo89!
+    require_message_authenticator = no
+}
+```
