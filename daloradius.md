@@ -9,7 +9,6 @@ sudo apt update && sudo apt -y upgrade
 ```
 sudo apt -y install apache2
 sudo systemctl enable --now apache2
-
 ```
 
 ```
@@ -47,7 +46,6 @@ sudo ufw allow https
 ```
 sudo apt -y install freeradius freeradius-mysql freeradius-utils
 sudo systemctl enable --now freeradius.service 
-
 ```
 
 
@@ -119,7 +117,6 @@ git clone https://github.com/lirantal/daloradius.git
 ```
 sudo mariadb -u root -p radius < daloradius/contrib/db/fr3-mariadb-freeradius.sql
 sudo mariadb -u root -p radius < daloradius/contrib/db/mariadb-daloradius.sql
-
 ```
 
 ```
@@ -190,7 +187,6 @@ sudo tee /etc/apache2/sites-available/operators.conf<<EOF
     CustomLog \${APACHE_LOG_DIR}/daloradius/operators/access.log combined
 </VirtualHost>
 EOF
-
 ```
 
 ```
@@ -213,7 +209,6 @@ sudo tee /etc/apache2/sites-available/users.conf<<EOF
     CustomLog \${APACHE_LOG_DIR}/daloradius/users/access.log combined
 </VirtualHost>
 EOF
-
 ```
 
 ```
@@ -239,7 +234,6 @@ Access the service on the following URLS:
 
 ```
 RADIUS management application: http://192.168.1.2:8000/
-
 ```
 ```
 sudo vim /etc/freeradius/3.0/clients.conf
