@@ -13,6 +13,6 @@ premier temps, la base de données sera intégrée au FreeRadius. Une
 fois fonctionnel, on créera une base de données externes.
 - Dans les logs, on devra retrouver l’identité des clients qui se seront
 connectés sur une journée.
-- Un tutorial sur [FreeRadius](raw.githubusercontent.com/Louisgvc/SAE501/main/daloradius.md) 3/4 sera à fournir.
+- Un tutorial sur [FreeRadius](daloradius.md) 3/4 sera à fournir.
 
 ![Alt text](https://raw.githubusercontent.com/Louisgvc/SAE501/main/shem.png "a title")
