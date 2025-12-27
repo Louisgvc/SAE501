@@ -16,3 +16,8 @@ connectés sur une journée.
 - Un tutorial sur [FreeRadius](daloradius.md) 3/4 sera à fournir.
 
 ![Alt text](https://raw.githubusercontent.com/Louisgvc/SAE501/main/shem.png "a title")
+
+![Alt text](https://github.com/Louisgvc/SAE501/blob/8ba5f10dd92904cbfbf2bf284480b7ca02a272e5/Connexion%20apr%C3%A9s%20redirection%20vers%20notre%20portail%20captif.png)
+
+
+![Alt text](https://github.com/Louisgvc/SAE501/blob/8ba5f10dd92904cbfbf2bf284480b7ca02a272e5/redirection%20vers%20notre%20portail%20captif.png)
