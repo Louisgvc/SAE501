@@ -35,6 +35,8 @@ Network => Interfaces => Guest => Edit
 
 General Settings
 
+![Alt text](https://github.com/Louisgvc/SAE501/blob/main/point%20d'acc%C3%A9s%20guest%20.png?raw=true)
+
 - Device : celui correspondant au réseau wifi (dans mon cas br-lan,
 mais cela pourra sans doute être différent)
 - IPv4 address : 192.168.3.1
