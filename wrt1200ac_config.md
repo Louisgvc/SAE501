@@ -58,13 +58,19 @@ Firewall Settings
 
 ![Alt text](https://github.com/Louisgvc/SAE501/blob/main/firewall.png?raw=true)
 
-Après création de l’interface réseau « Guest » et admin, configuration du point d’accès Wi-Fi « hotel transylvania » (mode Access Point sans sécurité), association au réseau Guest et définition de l’adresse IP statique 192.168.3.1/24, la configuration est terminée.
-La zone firewall « guest » a été créée afin d’isoler complètement les clients du réseau invité du réseau principal (administration).
-La capture d’écran présente simultanément :
+Après création de l’interface réseau « Guest », configuration du point d’accès Wi-Fi « hotel transylvania » (mode Access Point sans sécurité), association de ce SSID à l’interface Guest et définition d’une adresse IP statique 192.168.3.1/24, la configuration du réseau invité est terminée.
 
-• le réseau LAN principal (administration)
+La zone firewall « guest » a été créée spécifiquement pour isoler complètement les clients du réseau invité du réseau principal (administration). Cette zone est configurée sans forwarding vers la zone « lan » et sans accès aux services internes (DHCP, DNS, etc. du réseau admin).
 
-• le nouveau réseau invité Guest avec son interface radio br-lan et son SSID hotel transylvania et le réseau administrateur.
+La zone firewall par défaut « lan » reste quant à elle associée au réseau d’administration (interface LAN principale, généralement 192.168.1.1/24 ). Elle autorise le forwarding vers la zone « wan » (accès Internet) et protège les services internes du routeur (LuCI, SSH, etc.) tout en restant inaccessible depuis la zone « guest ».
+
+La capture d’écran globale présentée ci-dessous montre simultanément :
+
+• le réseau LAN principal (administration) avec sa zone firewall « lan »
+
+• le nouveau réseau invité Guest avec son interface radio br-lan, son SSID HotspotRT
+
+• les zones firewall correspondantes (« lan » et « guest ») illustrant la séparation claire entre les deux réseaux
 
 ![Alt text](https://github.com/Louisgvc/SAE501/blob/cc51b7c95052fff5839442ebbd9ff516433b6448/nos%20interfaces.png)
 
