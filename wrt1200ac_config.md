@@ -76,5 +76,8 @@ Firewall zone « guest » créée → isolation OK
 
 Les deux réseaux (admin + guest) cohabitent correctement comme le montre cette vue globale.
 
+Et ci-dessous nous avons nôtre redirection et connexion de nôtre portail captif : 
+
+![Alt text](https://github.com/Louisgvc/SAE501/blob/main/redirection%20vers%20notre%20portail%20captif.png?raw=true)
 
 
