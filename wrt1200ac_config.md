@@ -61,7 +61,9 @@ Firewall Settings
 Après création de l’interface réseau « Guest » et admin, configuration du point d’accès Wi-Fi « hotel transylvania » (mode Access Point sans sécurité), association au réseau Guest et définition de l’adresse IP statique 192.168.3.1/24, la configuration est terminée.
 La zone firewall « guest » a été créée afin d’isoler complètement les clients du réseau invité du réseau principal (administration).
 La capture d’écran présente simultanément :
+
 • le réseau LAN principal (administration)
-• le nouveau réseau invité Guest avec son interface radio br-lan et son SSID hotel transylvania
+
+• le nouveau réseau invité Guest avec son interface radio br-lan et son SSID hotel transylvania et le réseau administrateur.
 
 ![Alt text](https://github.com/Louisgvc/SAE501/blob/cc51b7c95052fff5839442ebbd9ff516433b6448/nos%20interfaces.png)
