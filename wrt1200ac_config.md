@@ -46,4 +46,6 @@ Firewall Settings
 - Create => guest
 - Network => Firewall
 
+![Alt text](https://github.com/Louisgvc/SAE501/blob/main/firewall.png?raw=true)
+
 ![Alt text](https://github.com/Louisgvc/SAE501/blob/cc51b7c95052fff5839442ebbd9ff516433b6448/nos%20interfaces.png)
