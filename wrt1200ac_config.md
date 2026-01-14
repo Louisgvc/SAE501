@@ -67,3 +67,11 @@ La capture d’écran présente simultanément :
 • le nouveau réseau invité Guest avec son interface radio br-lan et son SSID hotel transylvania et le réseau administrateur.
 
 ![Alt text](https://github.com/Louisgvc/SAE501/blob/cc51b7c95052fff5839442ebbd9ff516433b6448/nos%20interfaces.png)
+
+Réseau invité fonctionnel :
+SSID hotel transylvania (ouvert) → interface Guest (192.168.3.1/24)
+Firewall zone « guest » créée → isolation OK
+Les deux réseaux (admin + guest) cohabitent correctement comme le montre cette vue globale.
+
+
+
