@@ -35,7 +35,7 @@ Network => Interfaces => Guest => Edit
 
 General Settings
 
-![Alt text](https://github.com/Louisgvc/SAE501/blob/main/point%20d'acc%C3%A9s%20guest%20.png?raw=true)
+![Alt text](https://github.com/Louisgvc/SAE501/blob/65829e0f6ddafbcc67d1050558df541c0c79961f/Image/wrt1200ac/point%20d'acc%C3%A9s%20guest%20.png)
 
 - Nous avons aussi procédé de la même maniere pour un administrateur
 
@@ -45,7 +45,7 @@ Network => Interfaces => Admin => Edit
 
 General Settings
 
-![Alt text](https://github.com/Louisgvc/SAE501/blob/main/point%20d'acc%C3%A9s%20admin.png?raw=true)
+![Alt text](https://github.com/Louisgvc/SAE501/blob/65829e0f6ddafbcc67d1050558df541c0c79961f/Image/wrt1200ac/point%20d'acc%C3%A9s%20admin.png)
 
 - Device : celui correspondant au réseau wifi (dans mon cas br-lan,
 mais cela pourra sans doute être différent)
@@ -56,7 +56,7 @@ Firewall Settings
 - Create => guest
 - Network => Firewall
 
-![Alt text](https://github.com/Louisgvc/SAE501/blob/main/firewall.png?raw=true)
+![Alt text](https://github.com/Louisgvc/SAE501/blob/65829e0f6ddafbcc67d1050558df541c0c79961f/Image/wrt1200ac/%20firewall.png)
 
 Après création de l’interface réseau « Guest », configuration du point d’accès Wi-Fi « hotel transylvania » (mode Access Point sans sécurité), association de ce SSID à l’interface Guest et définition d’une adresse IP statique 192.168.3.1/24, la configuration du réseau invité est terminée.
 
@@ -72,7 +72,7 @@ La capture d’écran globale présentée ci-dessous montre simultanément :
 
 • les zones firewall correspondantes (« lan » et « guest ») illustrant la séparation claire entre les deux réseaux
 
-![Alt text](https://github.com/Louisgvc/SAE501/blob/cc51b7c95052fff5839442ebbd9ff516433b6448/nos%20interfaces.png)
+![Alt text](https://github.com/Louisgvc/SAE501/blob/65829e0f6ddafbcc67d1050558df541c0c79961f/Image/wrt1200ac/nos%20interfaces.png)
 
 Réseau invité fonctionnel :
 
@@ -84,6 +84,6 @@ Les deux réseaux (admin + guest) cohabitent correctement comme le montre cette 
 
 Et ci-dessous nous avons nôtre redirection et connexion de nôtre portail captif : 
 
-![Alt text](https://github.com/Louisgvc/SAE501/blob/main/redirection%20vers%20notre%20portail%20captif.png?raw=true)
+![Alt text]([https://github.com/Louisgvc/SAE501/blob/main/redirection%20vers%20notre%20portail%20captif.png?raw=true](https://github.com/Louisgvc/SAE501/blob/65829e0f6ddafbcc67d1050558df541c0c79961f/Image/opensense/redirection%20vers%20notre%20portail%20captif.png))
 
 
